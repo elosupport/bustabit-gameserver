@@ -16,7 +16,7 @@ package installs `nodejs` but will additionally create a symlink from
 
 ### Getting the sources
 
-    git clone https://github.com/espringe/moneypot.git
+    git clone https://github.com/shamimiceewu025/bustabit-gameserver.git
     cd moneypot
 
 ### Create a database user and setup the tables
@@ -28,8 +28,7 @@ Create a user. It will prompt you for a password.
 Create the database and setup the tables. The second command will prompt you
 for the password again.
 
-    sudo -u postgres createdb -O moneypot moneypotdb
-    psql -W -U moneypot -d moneypotdb -h localhost -f server/schema.sql
+ ***** See Webserver Database Setting . Same database need to use
 
 Mac OS X
 --------
@@ -42,7 +41,7 @@ These are instructions for running MoneyPot locally on a Mac using homebrew.
 
 ### Getting the sources
 
-    git clone https://github.com/espringe/moneypot.git
+    git clone https://github.com/shamimiceewu025/bustabit-gameserver.git
     cd moneypot
 
 ### Create a database user and setup the tables
@@ -54,8 +53,7 @@ Create a user. It will prompt you for a password.
 Create the database and setup the tables. The second command will prompt you
 for the password again.
 
-    createdb -O moneypot moneypotdb
-    psql -W -U moneypot -d moneypotdb -h localhost -f server/schema.sql
+ ***** See Webserver Database Setting . Same database need to use
 
 
 Configuration
